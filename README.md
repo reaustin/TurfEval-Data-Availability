@@ -124,6 +124,12 @@ Real plot-boundary polygons for 8 trial instances, sourced from the underlying G
 | `TurfgrassPredictors_Analysis.R` | Reads Dataset 2 and computes Figure 2 (per-site-date Spearman ρ between each predictor and TQR, averaged by species). |
 | `rf_classification.R` | Random Forest **ordinal classification** of TQ (1–9) from UAV predictors, with within-fold SMOTE class balancing, permutation variable importance, and both a random 80/20 split and a site-date holdout evaluation strategy (see manuscript Methods §5b). **Before running:** set the `project_dir` variable near the top of the script to your local path to the `TurfCenter/locations/All` analysis project folder — no input path is hardcoded. |
 
+## Data availability
+
+The plot-level data and analysis code supporting this study are openly available at https://github.com/reaustin/TurfEval-Data-Availability. Plot-boundary shapefiles are provided with all rating and entry identity attributes removed.
+
+Raw UAV imagery is not deposited. The image datasets are large, and the trials include unreleased breeding material from the NC State turfgrass breeding program. Raw imagery is available from the corresponding author on reasonable request, subject to agreement with the breeding program.
+
 ## License
 
 Code in `code/` is released under the MIT License. Data in `trials/` is released under CC BY 4.0. See [LICENSE](LICENSE) and [LICENSE-DATA](LICENSE-DATA).
