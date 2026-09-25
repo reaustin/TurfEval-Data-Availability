@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite both the software/data record below and the associated manuscript."
+title: "TurfEval Data Availability: data and code for automated turfgrass quality assessment from UAV imagery"
+abstract: >-
+  Plot-level data and analysis code supporting an evaluation of relationships
+  between UAV-derived image predictors and visual turfgrass quality ratings on
+  the NTEP 1 to 9 scale. Includes rater variability ratings, plot-level RGB and
+  multispectral predictors paired with turf quality ratings, plot-boundary
+  geometry for eight trial instances, and the R code that reproduces the
+  reported correlation, rater agreement, and random forest classification
+  results.
+type: dataset
+authors:
+  - family-names: Austin
+    given-names: Robert
+    name-particle: E.
+    email: rob_austin@ncsu.edu
+    affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Tan
+    given-names: Brynna
+    affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+  - family-names: Miller
+    given-names: Grady
+    name-particle: L.
+    affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+  - family-names: Carbajal
+    given-names: Esdras
+    name-particle: M.
+    affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+  - family-names: Milla-Lewis
+    given-names: Susana
+    name-particle: R.
+    affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+repository-code: "https://github.com/reaustin/TurfEval-Data-Availability"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-09-25"
+keywords:
+  - turfgrass
+  - UAV
+  - unmanned aerial vehicle
+  - remote sensing
+  - multispectral imagery
+  - turf quality rating
+  - NTEP
+  - random forest
+  - plant phenotyping
+  - precision agriculture
+preferred-citation:
+  type: article
+  title: "Pixels, Patterns, and Perception: Toward Automated Turfgrass Quality Assessment in the Breeding and Evaluation Pipeline Using UAV Imagery"
+  journal: "The Plant Phenome Journal"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Austin
+      given-names: Robert
+      name-particle: E.
+      email: rob_austin@ncsu.edu
+      affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+    - family-names: Tan
+      given-names: Brynna
+      affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+    - family-names: Miller
+      given-names: Grady
+      name-particle: L.
+      affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+    - family-names: Carbajal
+      given-names: Esdras
+      name-particle: M.
+      affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
+    - family-names: Milla-Lewis
+      given-names: Susana
+      name-particle: R.
+      affiliation: "Department of Crop and Soil Sciences, North Carolina State University"
